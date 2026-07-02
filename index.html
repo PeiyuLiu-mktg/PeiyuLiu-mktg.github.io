@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Your Name - Homepage</title>
-  <meta name="description" content="A minimal academic homepage template for researchers, students, and creators.">
-  <meta name="keywords" content="academic homepage, personal website, portfolio, researcher, student">
+  <title>Home - Peiyu Liu</title>
+  <meta name="description" content="Home page of Peiyu Liu, an economics undergraduate at Nankai University interested in quantitative marketing, artificial intelligence, causal inference, algorithmic mechanism design, experimental design, and platform optimization.">
+  <meta name="keywords" content="Peiyu Liu, Nankai University, economics, quantitative marketing, artificial intelligence, causal inference, mechanism design">
   <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&family=Spectral:wght@500;600&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
   <script src="https://kit.fontawesome.com/a860a211d3.js" crossorigin="anonymous"></script>
@@ -23,9 +23,13 @@
   <nav class="top-nav">
     <div class="nav-container">
       <div class="nav-left">
-        <a href="./">Home</a>
+        <span class="nav-brand">Peiyu Liu's personal website</span>
       </div>
       <div class="nav-right">
+        <a href="index.html">Home</a>
+        <a href="workingpaper.html">Working Paper</a>
+        <a href="coursework.html">Coursework</a>
+        <a href="projects.html">Projects</a>
         <button id="themeToggle" class="theme-toggle" title="Toggle theme" aria-label="Toggle theme">
           <i class="fa-solid fa-moon"></i>
         </button>
@@ -33,143 +37,62 @@
     </div>
   </nav>
 
-  <div class="wrapper">
+  <div class="wrapper home-wrapper">
     <header class="sidebar">
       <div class="profile-card">
         <a class="image avatar">
-          <img src="assets/img/avatar.svg" alt="Profile avatar">
+          <img src="assets/img/peiyu-liu.png" alt="Portrait of Peiyu Liu">
         </a>
 
-        <h1 class="site-name">Your Name</h1>
-        <p class="site-email">your.email@example.com</p>
+        <h1 class="site-name">Peiyu Liu</h1>
+        <p class="site-role">Economics Undergraduate<br>Nankai University</p>
+        <p class="site-email">pyliu.mkt@gmail.com</p>
 
         <div class="social-icons">
-          <a href="mailto:your.email@example.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
-          <a href="https://scholar.google.com/" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
-          <a href="https://github.com/yourname" title="GitHub"><i class="fa-brands fa-github"></i></a>
-          <a href="https://www.linkedin.com/" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
-          <a href="https://yourblog.example.com" title="Blog"><i class="fa-solid fa-rss"></i></a>
-        </div>
-
-        <div class="visitor-card">
-          <div class="visitor-card-title">Visitor Map</div>
-          <div class="visitor-card-body">
-            Replace this card with your own ClustrMaps image or analytics widget.
-          </div>
+          <a href="mailto:pyliu.mkt@gmail.com" title="Email"><i class="fa-solid fa-envelope"></i></a>
+          <a href="https://github.com/PeiyuLiu-mktg" title="GitHub" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i></a>
+          <a href="assets/cv/resume-peiyu-liu.pdf" title="CV" target="_blank" rel="noopener"><i class="ai ai-cv"></i></a>
         </div>
       </div>
     </header>
 
-    <section class="content">
-      <div class="section" id="about">
-        <h2 class="section-title">About Me</h2>
+    <main class="content home-content">
+      <section class="section hero-section" id="home">
+        <p class="eyebrow">MARKETING · AI · STATISTICS</p>
         <div class="section-body">
-          <p>Hello! I am <strong>Your Name</strong>, a student / researcher / engineer working on topics that matter to you. This template is designed to make personal academic websites clean, readable, and easy to adapt.</p>
-          <p>You can use this section to briefly introduce your background, research interests, and current affiliations. Keep it concise and personal.</p>
-          <p><strong><a href="#" target="_blank" rel="noopener">Download my CV</a></strong> (replace this link with your resume)</p>
+          <p>Welcome! I am <strong>Peiyu Liu</strong>, a Bachelor of Economics student at the School of Economics, Nankai University. My current interests sit at the intersection of quantitative marketing and artificial intelligence, with a particular focus on causal inference, algorithmic mechanism design, experimental design, and platform optimization.</p>
+          <p class="action-row">
+            <a class="pill-link" href="assets/cv/resume-peiyu-liu.pdf" target="_blank" rel="noopener">Download CV</a>
+            <a class="pill-link" href="https://github.com/PeiyuLiu-mktg" target="_blank" rel="noopener">GitHub</a>
+          </p>
         </div>
-      </div>
+      </section>
 
-      <div class="section" id="education">
+      <section class="section" id="education">
         <h2 class="section-title">Education</h2>
         <div class="section-body">
           <div class="card">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/institution.svg" alt="Nankai University logo placeholder" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Your University</strong></p>
-                <p class="exp-detail">B.S. / M.S. / Ph.D. in Your Major</p>
-                <p class="exp-period">2022 - 2026</p>
+                <p class="exp-title"><strong>Nankai University, School of Economics</strong></p>
+                <p class="exp-detail">Bachelor of Economics</p>
+                <p class="exp-detail">GPA: 90.02 / 100</p>
+                <p class="exp-period">Sep 2022 - Jun 2026</p>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="experience">
-        <h2 class="section-title">Experience</h2>
-        <div class="section-body">
-          <div class="card timeline-item">
             <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
+              <img src="assets/img/institution.svg" alt="Nankai University logo placeholder" class="institution-logo">
               <div class="experience-content">
-                <p class="exp-title"><strong>Research Lab / Company Name</strong></p>
-                <p class="exp-detail">Research Intern / Engineer / Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2025 - Present</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="card timeline-item">
-            <div class="experience-item">
-              <img src="assets/img/institution.svg" alt="Institution logo" class="institution-logo">
-              <div class="experience-content">
-                <p class="exp-title"><strong>Previous Institution</strong></p>
-                <p class="exp-detail">Research Intern / Teaching Assistant</p>
-                <p class="exp-detail"><em>Advisor:</em> Prof. / Dr. Name</p>
-                <p class="exp-period">2024 - 2025</p>
+                <p class="exp-title"><strong>Nankai University, School of Economics</strong></p>
+                <p class="exp-detail">Master of Economics (Recommended Exemption Postgraduates)</p>
+                <p class="exp-period">Sep 2026 - Jun 2029 (expected)</p>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-      <div class="section" id="projects">
-        <h2 class="section-title">Projects</h2>
-        <div class="section-body">
-          <div class="card project-card">
-            <a href="https://github.com/yourname/project-name">Project Name</a>: A short one-line summary describing what this project does and why it matters.
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="publications">
-        <h2 class="section-title">Publications</h2>
-        <div class="section-body">
-          <div class="publications">
-            <ol class="bibliography">
-              <li>
-                <div class="pub-row">
-                  <div class="pub-content">
-                    <div class="title">Paper Title Goes Here</div>
-                    <div class="author"><strong>Your Name</strong>, Coauthor A, Coauthor B</div>
-                    <div class="periodical"><em><strong>Conference / Journal / arXiv</strong></em></div>
-                    <div class="links">
-                      <a href="#">Paper</a> / <a href="#">Code</a> / <a href="#">Project</a>
-                    </div>
-                  </div>
-                </div>
-              </li>
-            </ol>
-          </div>
-        </div>
-      </div>
-
-      <div class="section" id="awards">
-        <h2 class="section-title">Awards</h2>
-        <div class="section-body">
-          <div class="awards-grid">
-            <div class="award-item">
-              <span class="award-icon">🏅</span>
-              <div class="award-text"><strong>Award Name</strong></div>
-            </div>
-            <div class="award-item">
-              <span class="award-icon">🥇</span>
-              <div class="award-text"><strong>Competition / Scholarship / Honor</strong></div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer class="site-footer">
-      <p>
-        &copy; 2026 Your Name. All rights reserved.
-        <br>
-        <span class="template-credit"><a href="https://github.com/wzsyyh/luka-homepage-template">Luka Homepage Template</a> by <a href="https://wzsyyh.github.io/">Yuheng Yang</a></span>
-      </p>
-    </footer>
+      </section>
+    </main>
   </div>
 
   <script src="assets/js/scale.fix.js"></script>
@@ -194,24 +117,9 @@
         setTheme(!isDark);
       });
 
-      if ('IntersectionObserver' in window) {
-        const observer = new IntersectionObserver(function(entries) {
-          entries.forEach(function(entry) {
-            if (entry.isIntersecting) {
-              entry.target.classList.add('visible');
-              observer.unobserve(entry.target);
-            }
-          });
-        }, { threshold: 0.1 });
-
-        document.querySelectorAll('.section').forEach(function(el) {
-          observer.observe(el);
-        });
-      } else {
-        document.querySelectorAll('.section').forEach(function(el) {
-          el.classList.add('visible');
-        });
-      }
+      document.querySelectorAll('.section').forEach(function(el) {
+        el.classList.add('visible');
+      });
     })();
   </script>
 </body>

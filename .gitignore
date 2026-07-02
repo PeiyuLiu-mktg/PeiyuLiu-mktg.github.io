@@ -7,3 +7,10 @@ Thumbs.db
 
 # macOS metadata
 ._*
+
+# Local preview screenshots
+home-page-check.png
+home-preview.png
+layout-check-*.png
+nav-check.png
+projects-page-check.png
