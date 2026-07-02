@@ -1,6 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Institution placeholder">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Graduation cap icon">
   <rect x="4" y="4" width="56" height="56" rx="14" fill="#f3eee7"/>
-  <path d="M32 14 48 21v4c0 10-6 18-16 24C22 43 16 35 16 25v-4Z" fill="#c2714f"/>
-  <path d="M32 23v18" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
-  <path d="M23 32h18" stroke="#fff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M12 26 32 15l20 11-20 11Z" fill="#c2714f"/>
+  <path d="M22 32v9c0 4 5 8 10 8s10-4 10-8v-9l-10 5Z" fill="#c2714f"/>
+  <path d="M48 29v12" stroke="#c2714f" stroke-width="3" stroke-linecap="round"/>
+  <circle cx="48" cy="45" r="3" fill="#c2714f"/>
+  <path d="M20 27 32 21l12 6" fill="none" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" opacity=".72"/>
 </svg>
